@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********************************************************************
+    Custom Styles
+*********************************************************************/
+
+* {
+    box-sizing: border-box;
+    background: #1F2937;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    margin-left: 52px;
+}
+
+.pass-head {
+    margin: 115px 144px 0 0;
+    width: 354px;
+    height: 80px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.pass-head h1 span {
+    display: block;
+    color: #4ADF86;
+}
+
+.pass-description {
+    width: 372px;
+    height: 28px;
+    margin: 10px 0;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.pass-btn {
+    margin: 50px 0 35px 0;
+    border: 0;
+    border-radius: 6px;
+    background-color: #10B981;
+    width: 191px;
+    height: 42px;
+    padding: 9px 17px 9px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-btn span {
+    width: 159px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: inherit;
+    color: #ffffff;
+    text-align: center;
+}
+
+.line {
+    margin: 35px 0;
+    border: 1px solid #2F3E53;
+    width: 446px;
+}
+
+.grid-container {
+    height: 40px;
+    display: flex;
+    justify-content: start;
+}
+
+.grid {
+    width: 210px;
+    background: #273549;
+    margin: 0 12px 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 4px 16px;
+    border-radius: 6px;
+}
+
+.grid-container .grid.grid-next {
+    margin: 0 0 0 12px;
+}
+
+.grid-container .grid span {
+    width: 180px;
+    height: 32px;
+    background: inherit;
+    color: #55F991;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
